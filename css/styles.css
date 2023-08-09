@@ -28,9 +28,44 @@ body {
   list-style: none;
   text-decoration: none;
 }
-
+/* reset */
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* container */
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+}
+/*    heder    */
+.header {
+  padding-top: 25.5;
+  padding-bottom: 25.5;
+}
 .header-list {
   text-decoration: none;
+}
+.header-navigation {
+  display: flex;
+  gap: 70px;
 }
 
 .header-logo-span {
@@ -64,6 +99,7 @@ body {
 }
 
 .header-description {
+  display: flex;
   color: var(--navyblue);
   /* Body Medium */
   font-family: Roboto;
@@ -72,6 +108,7 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  gap: 40px;
 }
 .header-list {
   color: var(--navyblue);
@@ -104,7 +141,7 @@ body {
 .header-contact-address {
   font-style: normal;
 }
-.header-contact {
+.header-contact-main {
   color: var(--color-slate);
   list-style: none;
   /* Body */
@@ -116,6 +153,11 @@ body {
   letter-spacing: 0.02em;
 }
 .header-contact {
+  padding-left: 332px;
+  display: flex;
+  gap: 40px;
+}
+.header-contact-main {
   text-decoration: none;
 }
 .header-contact:hover {
@@ -128,7 +170,10 @@ body {
 
 .hero {
   background: var(--navyblue);
+  padding: 188px 0;
+  display: flex;
 }
+
 .hero-title {
   color: var(--color-white);
   text-align: center;
@@ -139,6 +184,8 @@ body {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
+  width: 496px;
+  margin-bottom: 48px;
 }
 .hero-link-btn {
   color: var(--color-white);
@@ -149,6 +196,7 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
+  padding: 16px 32px;
 }
 .hero-link-btn {
   background-color: #4d5ae5;
@@ -188,6 +236,25 @@ body {
 }
 
 /*--ADVANTAGES--*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advateges {
+  display: flex;
+  gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .advanteges-subtitle {
   color: var(--navyblue);
   /* Header 3 */
@@ -243,6 +310,8 @@ body {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  /* max-width: 323px; */
+  margin-bottom: 70px;
 }
 /*---job---*/
 .portfolio-job {
@@ -251,12 +320,26 @@ body {
 .portfolio-job-photo {
   text-decoration: none;
 }
+.work-company {
+  display: flex;
+  gap: 24px;
+}
 /*-----our time------*/
 .personnel-one {
   background-color: #f4f4fd;
 }
 .personnel-mens-list {
   background-color: #ffffff;
+}
+.personnel-mens-job {
+  margin-bottom: 32px;
+}
+.personnel-mens-list {
+  margin-bottom: 120px;
+}
+.personnel-mens {
+  display: flex;
+  gap: 24px;
 }
 .personnel {
   color: var(--navyblue);
@@ -269,6 +352,8 @@ body {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-top: 240px;
+  margin-bottom: 72px;
 }
 
 .personnel-mens {
@@ -293,6 +378,7 @@ body {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  padding-top: 32px;
 }
 .personnel-mens-job {
   color: var(--color-slate);
@@ -308,6 +394,7 @@ body {
 /*-----footer-----*/
 .footer {
   background: var(--navyblue);
+  padding: 188px 0;
 }
 .footer-logotype {
   color: var(--iris, #4d5ae5);
@@ -318,6 +405,7 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  padding-bottom: 30px;
 }
 .footer-logotype {
   font-family: "Raleway", sans-serif;
@@ -341,4 +429,6 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  max-width: 280px;
+  padding: 17.5px;
 }

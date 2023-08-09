@@ -46,6 +46,9 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
 }
+.card-image {
+  display: block;
+}
 /* container */
 .container {
   max-width: 1158px;
@@ -57,6 +60,7 @@ ol {
 }
 /*    heder    */
 .header {
+  border-bottom: 1px solid #e7e9fc;
   padding-top: 25.5;
   padding-bottom: 25.5;
 }
@@ -205,7 +209,16 @@ ol {
 .hero-link-btn:focus {
   background-color: #404bbf;
 }
-
+.hero-button-menu:hover,
+.hero-button-menu:focus {
+  border: 1px solid transparent;
+}
+.list-button {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 /*---menu---*/
 .hero-button-menu {
   color: var(--iris);
@@ -221,6 +234,9 @@ ol {
 }
 .hero-button-menu {
   background-color: #f4f4fd;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .hero-button-menu:hover {
   color: #ffffff;

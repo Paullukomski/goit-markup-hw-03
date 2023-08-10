@@ -46,7 +46,7 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
 }
-.card-image {
+.personnel-mens-photo {
   display: block;
 }
 /* container */
@@ -54,6 +54,7 @@ ol {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  display: flex;
 }
 .header-container {
   display: flex;
@@ -68,6 +69,7 @@ ol {
   text-decoration: none;
 }
 .header-navigation {
+  align-items: center;
   display: flex;
   gap: 70px;
 }
@@ -81,7 +83,7 @@ ol {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  margin-right: 76px;
   list-style: none;
 }
 .header-logo {
@@ -113,6 +115,7 @@ ol {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-list {
   color: var(--navyblue);
@@ -188,7 +191,7 @@ ol {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
 }
 .hero-link-btn {
@@ -200,7 +203,11 @@ ol {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
-  padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .hero-link-btn {
   background-color: #4d5ae5;
@@ -271,6 +278,9 @@ ol {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.advateges-main {
+  width: calc((100% - 72px) / 4);
+}
 .advanteges-subtitle {
   color: var(--navyblue);
   /* Header 3 */
@@ -280,6 +290,7 @@ ol {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .advateges-text {
   color: var(--slate);
@@ -328,6 +339,9 @@ ol {
   text-transform: capitalize;
   /* max-width: 323px; */
   margin-bottom: 70px;
+}
+.section-work {
+  padding-bottom: 72px;
 }
 /*---job---*/
 .portfolio-job {

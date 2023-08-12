@@ -59,7 +59,7 @@ ol {
 .header-container {
   display: flex;
 }
-/*    heder    */
+/*!    heder    */
 .header {
   border-bottom: 1px solid #e7e9fc;
   padding-top: 25.5;
@@ -173,7 +173,7 @@ ol {
 .header-contact:focus {
   color: #404bbf;
 }
-/*----------HERO----------*/
+/*!----------HERO----------*/
 
 .hero {
   background: var(--navyblue);
@@ -226,7 +226,7 @@ ol {
   gap: 24px;
   margin-bottom: 72px;
 }
-/*---menu---*/
+/*!---menu---*/
 .hero-button-menu {
   color: var(--iris);
   text-align: center;
@@ -258,7 +258,7 @@ ol {
   list-style: none;
 }
 
-/*--ADVANTAGES--*/
+/*!--ADVANTAGES--*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -302,7 +302,7 @@ ol {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
-/*---service---*/
+/*!---service---*/
 .service-subtitle {
   color: var(--navyblue);
   /* Header 3 */
@@ -324,7 +324,7 @@ ol {
   letter-spacing: 0.02em;
 }
 
-/*-----------work-------- */
+/*!-----------work-------- */
 
 .work {
   color: var(--navyblue);
@@ -338,25 +338,33 @@ ol {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   /* max-width: 323px; */
-  margin-bottom: 70px;
+  margin-bottom: 72px;
+}
+.work-mens-photo {
+  width: calc((100% - 48px) / 3);
 }
 .section-work {
   padding-bottom: 72px;
 }
-/*---job---*/
+.work-company {
+  display: flex;
+  gap: 24px;
+}
+/*!---job---*/
 .portfolio-job {
   text-decoration: none;
 }
 .portfolio-job-photo {
   text-decoration: none;
 }
-.work-company {
-  display: flex;
-  gap: 24px;
-}
-/*-----our time------*/
+
+/*!-----our time------*/
 .personnel-one {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+.personnel-one-job {
+  padding: 32px 0;
 }
 .personnel-mens-list {
   background-color: #ffffff;
@@ -384,6 +392,7 @@ ol {
   text-transform: capitalize;
   margin-top: 240px;
   margin-bottom: 72px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .personnel-mens {
@@ -409,6 +418,8 @@ ol {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   padding-top: 32px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .personnel-mens-job {
   color: var(--color-slate);
@@ -420,8 +431,9 @@ ol {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  text-align: center;
 }
-/*-----footer-----*/
+/*!-----footer-----*/
 .footer {
   background: var(--navyblue);
   padding: 188px 0;
@@ -460,5 +472,7 @@ ol {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
   max-width: 280px;
-  padding: 17.5px;
+  padding: 100px 0;
+  display: inline-block;
+  margin-bottom: 16px;
 }

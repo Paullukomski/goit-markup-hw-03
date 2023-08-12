@@ -95,6 +95,7 @@ ol {
   line-height: 1.17em; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .header-logo-span {
   text-decoration: none;
@@ -144,6 +145,7 @@ ol {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 .header-contact-address {
   font-style: normal;
@@ -338,7 +340,7 @@ ol {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   /* max-width: 323px; */
-  margin-bottom: 72px;
+  padding-bottom: 120px;
 }
 .work-mens-photo {
   width: calc((100% - 48px) / 3);
@@ -436,7 +438,7 @@ ol {
 /*!-----footer-----*/
 .footer {
   background: var(--navyblue);
-  padding: 188px 0;
+  padding: 100px 0;
 }
 .footer-logotype {
   color: var(--iris, #4d5ae5);
@@ -448,6 +450,8 @@ ol {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   padding-bottom: 30px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logotype {
   font-family: "Raleway", sans-serif;

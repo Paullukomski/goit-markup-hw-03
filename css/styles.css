@@ -23,7 +23,6 @@ body {
 .link {
   list-style: none;
   text-decoration: none;
-  display: inline-block;
 }
 .list {
   list-style: none;
@@ -72,7 +71,6 @@ ol {
 .header-navigation {
   align-items: center;
   display: flex;
-  gap: 70px;
 }
 
 .header-logo-span {
@@ -460,10 +458,12 @@ ol {
   text-transform: uppercase;
   /* padding-bottom: 30px; */
   margin-bottom: 16px;
-  display: inline-block;
 }
 .footer-logotype {
   font-family: "Raleway", sans-serif;
+}
+.link {
+  display: inline-block;
 }
 .footer-logo-span {
   color: var(--color-cloud);

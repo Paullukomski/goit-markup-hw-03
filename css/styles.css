@@ -23,6 +23,7 @@ body {
 .link {
   list-style: none;
   text-decoration: none;
+  display: inline-block;
 }
 .list {
   list-style: none;
@@ -104,9 +105,7 @@ ol {
 .header-logo-span {
   color: var(--navyblue);
 }
-
-.header-description {
-  display: flex;
+.heder-item {
   color: var(--navyblue);
   /* Body Medium */
   font-family: Roboto;
@@ -117,6 +116,9 @@ ol {
   letter-spacing: 0.02em;
   gap: 40px;
   padding: 24px 0;
+}
+.header-description {
+  display: flex;
 }
 .header-list {
   color: var(--navyblue);

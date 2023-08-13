@@ -270,7 +270,6 @@ ol {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 /*!--ADVANTAGES--*/
 .visually-hidden {
@@ -332,6 +331,7 @@ ol {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .service-text {
   color: var(--color-slate);

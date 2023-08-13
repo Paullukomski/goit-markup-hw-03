@@ -121,6 +121,10 @@ ol {
   display: flex;
   gap: 40px;
 }
+.header-contact {
+  display: flex;
+  gap: 40px;
+}
 .header-list {
   color: var(--navyblue);
   /* Body Medium */
@@ -157,6 +161,7 @@ ol {
 .header-contact-addres {
   margin-left: auto;
   font-style: normal;
+  /* align-items: center; */
   /* display: flex;
   gap: 40px; */
 }
@@ -265,6 +270,7 @@ ol {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+  padding: 32px 16px;
 }
 /*!--ADVANTAGES--*/
 .visually-hidden {
